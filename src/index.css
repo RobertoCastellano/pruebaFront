@@ -1,0 +1,49 @@
+/*Estilos personalizados*/
+
+body {
+
+	background-color: #f6f6f6;
+
+}
+
+.navbar {
+	background-color: #146EB4;
+	border-radius: 3px;
+	
+}
+
+a {
+	color: #fff !important;
+}
+
+.btn {
+	
+	color: #fff !important;
+	background-color:#FF9900;
+}
+
+.btn:hover {
+	background-color:#ff7514 !important;
+	
+}
+
+.card:hover{
+	
+	border-color: #ff7514;
+}
+
+/*Estilos por defecto de React*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+	monospace;
+}
