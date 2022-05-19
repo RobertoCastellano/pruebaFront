@@ -9,8 +9,8 @@ const Navbar = (props) => {
 				<div className="container-fluid">
 				 		<Link to="/" className="navbar-brand">{props.titulo}</Link>
 					<form className="d-flex">
-						<input className="form-control me-2" type="search" placeholder="Películas" aria-label="Search"/>
-				 		<button className="btn" type="submit"><Link to={props.path}>{props.return}</Link></button>
+				 		<button className="btn me-5" type="submit"><Link to={props.path}>{props.return}</Link></button>
+						<input className="form-control me-2" type="search" placeholder="Buscador" aria-label="Search"/>
 					</form>      
 				</div>
 			</nav>	
