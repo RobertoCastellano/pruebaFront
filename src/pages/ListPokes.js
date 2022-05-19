@@ -23,3 +23,4 @@ const store = generateStore();
 }
 
 export default ListPokes;
+
